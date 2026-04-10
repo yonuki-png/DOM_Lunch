@@ -86,7 +86,7 @@ export default function App() {
       {/* Header */}
       <div style={styles.header}>
         <div style={styles.headerInner}>
-          <div style={styles.logo}>☕ 喫茶メモ</div>
+          <div style={styles.logo}>☕DOM</div>
           {view === "menu" && totalCount > 0 && (
             <button style={styles.billBtn} onClick={() => setView("bill")}>
               会計を見る ({totalCount}品)
